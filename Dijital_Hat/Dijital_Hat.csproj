@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3A3BA58-ED51-43FC-9DBF-A56C574C280B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Dijital_Hat</RootNamespace>
+    <AssemblyName>Dijital_Hat</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ayarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayarlar.Designer.cs">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ana_ekran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana_ekran.Designer.cs">
+      <DependentUpon>Ana_ekran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dijital_hat_veri_tababanıDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dijital_hat_veri_tababanıDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="m1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m1.Designer.cs">
+      <DependentUpon>m1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m2.Designer.cs">
+      <DependentUpon>m2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m3.Designer.cs">
+      <DependentUpon>m3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m4.Designer.cs">
+      <DependentUpon>m4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m5.Designer.cs">
+      <DependentUpon>m5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m6.Designer.cs">
+      <DependentUpon>m6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m7.Designer.cs">
+      <DependentUpon>m7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m8.Designer.cs">
+      <DependentUpon>m8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="m9.Designer.cs">
+      <DependentUpon>m9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mo.Designer.cs">
+      <DependentUpon>mo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="takip_et.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takip_et.Designer.cs">
+      <DependentUpon>takip_et.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ayarlar.resx">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ana_ekran.resx">
+      <DependentUpon>Ana_ekran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m1.resx">
+      <DependentUpon>m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m2.resx">
+      <DependentUpon>m2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m3.resx">
+      <DependentUpon>m3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m4.resx">
+      <DependentUpon>m4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m5.resx">
+      <DependentUpon>m5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m6.resx">
+      <DependentUpon>m6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m7.resx">
+      <DependentUpon>m7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m8.resx">
+      <DependentUpon>m8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m9.resx">
+      <DependentUpon>m9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mo.resx">
+      <DependentUpon>mo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="takip_et.resx">
+      <DependentUpon>takip_et.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Dijital_hat_veri_tababanıDataSet.xsc">
+      <DependentUpon>Dijital_hat_veri_tababanıDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dijital_hat_veri_tababanıDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dijital_hat_veri_tababanıDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dijital_hat_veri_tababanıDataSet.xss">
+      <DependentUpon>Dijital_hat_veri_tababanıDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dijital_hat_veri_tababanı.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
