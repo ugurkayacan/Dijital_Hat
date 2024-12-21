@@ -3,4 +3,4 @@ Bilgisayar Mühendisliği son sınıf bitirme projesi olarak hazırlanmıştır.
 boru hatları sahasında örneklendirilmesi.<br>
 Dijital hat teknolojisini kullanarak şev içerisindeki petrol boru hatlarının belirli bir parametreye karşı davranışlarına odaklanmıştır.<br>
 Proje önemli varsayımlar içermektedir.<br>
-Tüm hakları saklıdır.
+
